@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+    "jest": "*",
+    "supertest": "*"
+  },
+  "scripts": {
+    "test": "jest ./src/test",
+    "start": "PORT=3000 node ./src/server.js",
+    "build": "npm run-script build"
+  }
+}
